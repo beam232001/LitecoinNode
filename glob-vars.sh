@@ -1,11 +1,11 @@
 #define user account, group and current litecoin version
-LITECOIND_USER="litecoind" #the user litecoind will run under
-LITECOIND_GROUP="litecoind" #the group litecoind is a member of
-LITECOIN_VER_NO_BIT="litecoin-0.14.2"
+LITECOIND_USER="litecoin" #the user litecoind will run under
+LITECOIND_GROUP="litecoin" #the group litecoind is a member of
+LITECOIN_VER_NO_BIT="litecoin-0.16.3"
 LITECOIN_VER_W_BIT="$LITECOIN_VER_NO_BIT.0"
 
 #define directory locations
-HOME="/home/litecoind" #home directory of the litecoind user, we store some script and tempfiles here
+HOME="/home/litecoin" #home directory of the litecoind user, we store some script and tempfiles here
 LITECOIND_BIN_DIR="$HOME/bin" #the directory that stores the binary files of litecoind
 LITECOIND_DATA_DIR="$HOME/.litecoin" #the directory that holds the litecoind data
 LITECOIND_HOME_DIR="$HOME" #home directory of litecoind user account
